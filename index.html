@@ -100,25 +100,35 @@
     </section>
 
     <section class="popular-foods" id="menu">
-      <h2 class="popular-foods__title">Popular Food / 人気</h2>
-      <div class="popular-foods__filter sushi__hide-scrollbar">
+      <h2 class="popular-foods__title" data-aos="flip-up">
+        Popular Food / 人気
+      </h2>
+
+      <div
+        class="popular-foods__filters sushi__hide-scrollbar"
+        data-aos="fade-up"
+      >
         <button class="popular-foods__filter-btn active">All</button>
         <button class="popular-foods__filter-btn">
-          <img src="assets/sushi-9.png" alt="Sushi" /> Sushi
+          <img src="/assets/sushi-9.png" alt="sushi 9" />
+          Sushi
         </button>
         <button class="popular-foods__filter-btn">
-          <img src="assets/sushi-8.png" alt="ramen" /> Ramen
+          <img src="/assets/sushi-8.png" alt="sushi 8" />
+          Ramen
         </button>
         <button class="popular-foods__filter-btn">
-          <img src="assets/sushi-7.png" alt="udon" /> Udon
+          <img src="/assets/sushi-7.png" alt="sushi 7" />
+          Udon
         </button>
         <button class="popular-foods__filter-btn">
-          <img src="assets/sushi-6.png" alt="danggo" /> Danggo
+          <img src="/assets/sushi-6.png" alt="sushi 6" />
+          Danggo
         </button>
-        <button class="popular-foods__filter-btn">Other</button>
+        <button class="popular-foods__filter-btn">All</button>
       </div>
 
-      <div class="popular-foods__catalogue">
+      <div class="popular-foods__catalogue" data-aos="fade-up">
         <article class="popular-foods__card">
           <img
             class="popular-foods__card-image"
@@ -175,9 +185,11 @@
       </div>
 
       <button class="popular-foods__button">
-        Explor Food <img src="assets/arrow-right.svg" alt="" />
+        Explore Food
+        <img src="assets/arrow-right.svg" alt="arrow-right" />
       </button>
     </section>
+
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
